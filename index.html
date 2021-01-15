@@ -27,19 +27,5 @@
       document.getElementById('str').innerHTML = 'yaguyeh'
     }
 
-    function loop() {
-      setTimeout(function() {
-        clear();
-        reverse(document.getElementById('input').value);
-        loop();
-      }, 1000);
-    }
-
-    function clear() {
-      setTimeout(function() {
-        document.getElementById('input').value = '';
-      }, 100);
-    }
-
   </script>
 </html>
