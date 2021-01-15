@@ -1,1 +1,33 @@
-Hello!
+<html>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <script src="./index.js"></script>
+
+  <head>
+    <title></title>
+    <meta content="">
+    <style></style>
+  </head>
+  <body>
+
+    <form class="col g-3 m-3">
+      <div class="col-md-2 m-1">
+        <label class="form-label">User</label>
+        <input type="text" placeholder="User..." class="form-control" id="inputUser">
+      </div>
+      <div class="col-md-3 m-1">
+        <label class="form-label">Password</label>
+        <input type="password" placeholder="Password..." class="form-control" id="inputPass">
+      </div>
+      <br><div class="col-12 m-1">
+        <button type="reset" onclick="login(document.getElementById('inputUser').value, document.getElementById('inputPass').value)" class="btn btn-outline-success">Sign in</button>
+      </div>
+    </form>
+
+  </body>
+<script>
+
+  console.log("HTML");
+
+</script>
+</html>
