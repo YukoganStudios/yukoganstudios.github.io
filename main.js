@@ -8,7 +8,7 @@ function reverse(str) {
         //document.getElementById("str").innerHTML = document.getElementById("str").innerHTML + array[i]
         //console.log(ar6 + ar5 + ar4 + ar3 + ar2 + ar1)
         //result = result + array[i];
-        result = 'yaguyeh'
+        result = 'yaguyeh';
     }
     return result;
 }
